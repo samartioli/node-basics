@@ -15,3 +15,15 @@ A repository for Node Basics talk at Angle Brackets 2015 conference
 
     # ~/.npmrc
     prefix=/Users/[user]/npm-global
+
+### NPM Examples
+
+    npm install -g gulp
+    npm install -g json static
+    echo '{"language": "node"}' | json
+
+## Examples
+
+### 01 Basic Server
+
+    cd 01-basic_server
