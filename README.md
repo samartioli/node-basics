@@ -27,3 +27,13 @@ A repository for Node Basics talk at Angle Brackets 2015 conference
 ### 01 Basic Server
 
     cd 01-basic_server
+    node index.js
+
+### 02 File System
+
+    cd 02-file_system
+    node index.js
+
+<https://nodejs.org/api/fs.html>
+<https://nodejs.org/api/stream.html>
+

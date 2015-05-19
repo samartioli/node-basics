@@ -1,7 +1,7 @@
 {
-    "name": "node-basics-01",
+    "name": "node-basics-02",
     "version": "1.0.0",
-    "description": "Obligatory Hello World Server",
+    "description": "File System",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
