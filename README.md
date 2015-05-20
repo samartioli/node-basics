@@ -70,5 +70,10 @@ Slides available [here](https://docs.google.com/presentation/d/1A0vAtmKmRyuh4596
 
 ### Debug
 
-<https://github.com/remy/nodemon>
+    npm install -g node-inspector
+    node-inspector --version
+    cd 05-rename
+    node-debug index.js
+
+<https://github.com/node-inspector/node-inspector>
 

@@ -29,6 +29,7 @@ _.forEach(sh.find(path), function(p) {
     // console.log(p);
     if (p.match(regex)) {
         // console.log(p.replace(regex, string));
+        debugger;
         replacements.push({
             orig: p,
             new: p.replace(regex, string)
