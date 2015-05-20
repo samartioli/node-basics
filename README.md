@@ -37,3 +37,31 @@ A repository for Node Basics talk at Angle Brackets 2015 conference
 <https://nodejs.org/api/fs.html>
 <https://nodejs.org/api/stream.html>
 
+### 03 NPM Link
+
+    cd 03-npm_link
+    npm link .
+    catFile test.txt
+    npm unlink
+
+### 04 Shelljs
+
+    cd 04-shelljs
+    npm install
+    npm install shelljs --save
+    node index.js test.txt
+
+<https://github.com/arturadib/shelljs>
+
+### 05 Rename
+
+    cd 04-rename
+    npm install
+    npm link .
+    rename old new
+
+<https://lodash.com/docs>
+<https://github.com/SBoudrias/Inquirer.js>
+<https://github.com/bcoe/yargs>
+
+
