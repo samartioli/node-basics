@@ -7,13 +7,13 @@ var inquirer = require("inquirer");
 var util = require('util');
 
 var argv = require('yargs')
-    .usage('Usage: regexRename regex string [path]')
+    .usage('Usage: rename regex string [path]')
     .command('regex', 'Regex to replace')
     .command('string', 'Replacement string')
     .command('path', 'Base path [default: "./"]')
     .demand(2)
-    .example('regexRename \\(.*\\)\\.js \\$1\\.io', 'Change all .js files to .io')
-    .example('regexRename foo bar', 'Change all foo to bar')
+    .example('rename \\(.*\\)\\.js \\$1\\.io', 'Change all .js files to .io')
+    .example('rename foo bar', 'Change all foo to bar')
     .argv
     ;
 
@@ -26,7 +26,7 @@ var replacements = [];
 console.log('### INFO: Finding files');
 
 _.forEach(sh.find(path), function(p) {
-    console.log(p);
+    // console.log(p);
     if (p.match(regex)) {
         // console.log(p.replace(regex, string));
         replacements.push({

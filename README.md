@@ -2,6 +2,8 @@
 
 A repository for Node Basics talk at Angle Brackets 2015 conference
 
+Slides available [here](https://docs.google.com/presentation/d/1A0vAtmKmRyuh4596uznVY8pi7Zhx8Q0DF1PvF9CyDKo/edit?usp=sharing)
+
 ## Requirements
 
 - [git](http://git-scm.com/)
@@ -55,13 +57,18 @@ A repository for Node Basics talk at Angle Brackets 2015 conference
 
 ### 05 Rename
 
-    cd 04-rename
+    cd 05-rename
     npm install
     npm link .
-    rename old new
+    node generateDir.js
+    rename myModule angleBrackets
+    rename \(.*\)\.js \$1\.io
 
 <https://lodash.com/docs>
 <https://github.com/SBoudrias/Inquirer.js>
 <https://github.com/bcoe/yargs>
 
+### Debug
+
+<https://github.com/remy/nodemon>
 
